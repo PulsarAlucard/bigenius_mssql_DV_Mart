@@ -1,5 +1,5 @@
 id: 'ef4ef3ef-6aad-4857-852c-4185c620c5a1'
-name: 'S_CUSTOMER1'
+name: 'DIM_CUSTOMER'
 description: 'Generated Model Object from S_CUSTOMER'
 modelObjectTypeId: '293389a4-3c32-4c71-9514-f20135c9bc08'
 terms:
@@ -71,7 +71,7 @@ terms:
     hiddenInSource: false
     hiddenInTarget: true
   - id: 'b6389389-f3d1-4229-befe-3f40ef75f075'
-    name: 'S_CUSTOMER1_ID'
+    name: 'DIM_CUSTOMER_ID'
     description: 'Default term with mart dimension identity'
     dataType:
       platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
