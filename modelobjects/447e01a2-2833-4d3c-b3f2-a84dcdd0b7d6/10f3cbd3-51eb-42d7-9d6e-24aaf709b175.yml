@@ -119,7 +119,8 @@ dataflows:
         dataflowModelObjects:
           - id: 'e3e19592-64de-4c73-9f86-1880b9891323'
             sourceModelObjectId: 'c1d31cdc-da94-477f-8845-cefda6dc4a76'
-            alias: 's1'
+            alias: 'sat'
+            propertyValues: []
           - alias: 's2'
             joinOperatorId: '1c106214-02db-4770-b9df-48a855f277fb'
             id: '2dd71a47-e03e-41b7-85f1-4ea3e6702116'
