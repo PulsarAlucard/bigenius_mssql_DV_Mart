@@ -5,3 +5,8 @@ description: 'mssql_dv_and_mart'
 configuration:
   id: 'biGENIUS.Implementation.Generator.VaultAndMart.Mssql'
   version: '1.6.1'
+sourceSystems:
+  - id: '89e2a172-44a1-40d5-b03c-09ab1be79f21'
+    name: 'pos'
+    description: ''
+    sourceSystemTypeId: 'f69491d8-eed8-43a0-89f9-60195b3415c2'
