@@ -1,0 +1,7 @@
+id: '7e1fe210-91ce-46e1-309a-08dc95fa43f7'
+version: 'v1.4'
+name: 'mssql_dv_and_mart'
+description: 'mssql_dv_and_mart'
+configuration:
+  id: 'biGENIUS.Implementation.Generator.VaultAndMart.Mssql'
+  version: '1.6.1'
