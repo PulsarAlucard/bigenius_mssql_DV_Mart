@@ -1,5 +1,5 @@
 id: 'c1d31cdc-da94-477f-8845-cefda6dc4a76'
-name: 'CUSTOMER1'
+name: 'S_CUSTOMER'
 description: 'Generated Model Object from CUSTOMER'
 modelObjectTypeId: '3b97992a-73f0-451d-871f-e587ec71a216'
 terms:
@@ -201,3 +201,6 @@ relationships:
         referenceTermId: '3146db64-c45e-4872-a0a7-2a7f796ad8ec'
     additionalTermIds: []
     propertyValues: []
+propertyValues:
+  - propertyId: 'b0ee14c8-5179-4123-bed8-c81d60a9a0a2'
+    value: '<unselected>'
