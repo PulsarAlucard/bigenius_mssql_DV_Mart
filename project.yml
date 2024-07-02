@@ -10,3 +10,4 @@ sourceSystems:
     name: 'pos'
     description: ''
     sourceSystemTypeId: 'f69491d8-eed8-43a0-89f9-60195b3415c2'
+    activeDiscovery: '8b609b52-8c82-44b7-9cc1-18bc0fab9762'
