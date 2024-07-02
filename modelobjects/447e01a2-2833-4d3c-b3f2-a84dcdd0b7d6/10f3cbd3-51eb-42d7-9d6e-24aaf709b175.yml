@@ -95,6 +95,17 @@ terms:
     isNullable: true
     hiddenInSource: false
     hiddenInTarget: false
+  - id: 'f2cb85d9-3e3f-47ff-8127-8713da643ea1'
+    name: 'CUSTOMER_ID'
+    dataType:
+      precision: 38
+      platformDataTypeId: 'ea625964-ee65-4825-8d1b-87ebbd7baa31'
+    isIdentity: false
+    isBusinessKey: true
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
 dataflows:
   - id: '8e41fd18-c799-4c22-ad34-3da8b4596321'
     name: 'Dataflow1'
@@ -116,6 +127,8 @@ dataflows:
             expression: 'e3e19592-64de-4c73-9f86-1880b9891323.f4ef2741-4e9d-47bb-ac98-46287c6eeb92'
           - termId: '2a1b1e2e-81e0-431e-a658-07ceee491f8f'
             expression: 'e3e19592-64de-4c73-9f86-1880b9891323.925ea05a-bb4b-4943-a9fe-5538cbdcee51'
+          - termId: 'f2cb85d9-3e3f-47ff-8127-8713da643ea1'
+            expression: '2dd71a47-e03e-41b7-85f1-4ea3e6702116.3146db64-c45e-4872-a0a7-2a7f796ad8ec'
         dataflowModelObjects:
           - id: 'e3e19592-64de-4c73-9f86-1880b9891323'
             sourceModelObjectId: 'c1d31cdc-da94-477f-8845-cefda6dc4a76'
