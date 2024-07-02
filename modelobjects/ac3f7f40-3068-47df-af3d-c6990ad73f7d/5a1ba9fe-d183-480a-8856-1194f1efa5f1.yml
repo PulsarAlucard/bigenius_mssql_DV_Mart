@@ -1,0 +1,73 @@
+id: '5a1ba9fe-d183-480a-8856-1194f1efa5f1'
+name: 'CUSTOMER'
+description: 'Generated Model Object from CUSTOMER'
+modelObjectTypeId: 'ac3f7f40-3068-47df-af3d-c6990ad73f7d'
+terms:
+  - id: '94508ca2-4a1c-49de-ba86-28796401c83d'
+    name: 'BG_LoadTimestamp'
+    description: 'Default term with the load timestamp'
+    dataType:
+      platformDataTypeId: '88718695-75e5-413d-a8e9-fa27fe064353'
+    defaultTermId: '3fdfd83b-00b6-47e7-b139-9b25993626ac'
+    isDefaultTerm: true
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: false
+    hiddenInSource: false
+    hiddenInTarget: true
+  - id: 'ce7fdae0-3bab-4b20-a3e2-76f80ac647be'
+    name: 'Hub_HK'
+    description: 'Identifier of a record'
+    dataType:
+      platformDataTypeId: '77e450ef-2083-4296-a00e-3da0da7ad152'
+      length: 20
+    defaultTermId: '2689505b-2079-48b5-9fea-60ac633b04fe'
+    isDefaultTerm: true
+    isIdentity: true
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: false
+    hiddenInSource: false
+    hiddenInTarget: true
+  - id: '0b8a47a8-08ae-4552-8340-55feb02637e3'
+    name: 'BG_SourceSystem'
+    description: 'Default term with an identifier of the source system'
+    dataType:
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+      length: 255
+    defaultTermId: 'c3654f1c-5c92-4200-82ef-baac15ffa0ba'
+    isDefaultTerm: true
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '3146db64-c45e-4872-a0a7-2a7f796ad8ec'
+    name: 'CUSTOMER_ID'
+    dataType:
+      precision: 38
+      platformDataTypeId: 'ea625964-ee65-4825-8d1b-87ebbd7baa31'
+    isIdentity: false
+    isBusinessKey: true
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+dataflows:
+  - id: '948ba500-8730-49f0-b95f-7a92323f4c89'
+    name: 'Dataflow1'
+    dataflowSets:
+      - id: 'bd389d7d-acc0-4f60-a623-cffeaf76fe93'
+        name: 'Set1'
+        termMappings:
+          - termId: '94508ca2-4a1c-49de-ba86-28796401c83d'
+          - termId: 'ce7fdae0-3bab-4b20-a3e2-76f80ac647be'
+          - termId: '0b8a47a8-08ae-4552-8340-55feb02637e3'
+          - termId: '3146db64-c45e-4872-a0a7-2a7f796ad8ec'
+            expression: '26bf92d3-caea-4bce-b492-49a5f4b6d5cf.d6901499-63e1-4801-b266-273a7496de25'
+        dataflowModelObjects:
+          - id: '26bf92d3-caea-4bce-b492-49a5f4b6d5cf'
+            sourceModelObjectId: 'f3bdf50b-79aa-47c9-9466-2ca38534ad4d'
+            alias: 's1'
