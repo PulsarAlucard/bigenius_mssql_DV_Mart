@@ -1,5 +1,5 @@
 id: '5a1ba9fe-d183-480a-8856-1194f1efa5f1'
-name: 'CUSTOMER'
+name: 'H_CUSTOMER'
 description: 'Generated Model Object from CUSTOMER'
 modelObjectTypeId: 'ac3f7f40-3068-47df-af3d-c6990ad73f7d'
 terms:
@@ -71,3 +71,6 @@ dataflows:
           - id: '26bf92d3-caea-4bce-b492-49a5f4b6d5cf'
             sourceModelObjectId: 'f3bdf50b-79aa-47c9-9466-2ca38534ad4d'
             alias: 's1'
+propertyValues:
+  - propertyId: 'b0ee14c8-5179-4123-bed8-c81d60a9a0a2'
+    value: '<unselected>'
