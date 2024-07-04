@@ -1,0 +1,171 @@
+id: '61564655-6ccf-40f5-ba8c-f757b0fd216a'
+name: 'SALESTRANSACTION'
+modelObjectTypeId: '95e356a3-8e38-4e44-a496-abb805f556b7'
+terms:
+  - id: '196b522e-9d86-4352-9006-61e8d209701a'
+    name: 'POS_ID'
+    dataType:
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '1227288d-a77a-434d-bbde-6c53f0ebb38e'
+    name: 'ITEM_ID'
+    dataType:
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '4e8eb9aa-c478-43e2-bacc-219ee66186d8'
+    name: 'DESCRIPTION'
+    dataType:
+      length: 1000
+      platformDataTypeId: '9245c3e9-05f8-4e48-962c-e1b3c49bc239'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '1ea42774-617b-4759-9366-afc7d24083d9'
+    name: 'UOM'
+    dataType:
+      length: 10
+      platformDataTypeId: '9245c3e9-05f8-4e48-962c-e1b3c49bc239'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '7ade8eb9-298d-41ad-8bd8-d7d3eed3888b'
+    name: 'BRANCH_ID'
+    dataType:
+      length: 10
+      platformDataTypeId: '9245c3e9-05f8-4e48-962c-e1b3c49bc239'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '826edcab-4416-4b00-950c-2242ed28290e'
+    name: 'TRANSACTION_ID'
+    dataType:
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
+    isIdentity: false
+    isBusinessKey: true
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'a241ed86-dd49-42a0-a6d0-3b4315be6691'
+    name: 'TRANSACTION_LINE_NO'
+    dataType:
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
+    isIdentity: false
+    isBusinessKey: true
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'a87ca837-aa14-46b9-9978-bc50f780e5fc'
+    name: 'TRANSACTION_TIME'
+    dataType:
+      platformDataTypeId: 'f136e1f5-12f2-451f-ad33-06fd581e5c41'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '3612d6b0-15bc-4200-aead-be59dc0abab9'
+    name: 'CASHIER_ID'
+    dataType:
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '06ef79e5-73b2-4f9a-b755-8a1f11e3fee9'
+    name: 'LOYALTYCARD_ID'
+    dataType:
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'ed9eca3c-5bc6-49a5-81a9-46fc95cfc1fd'
+    name: 'CUSTOMER_ID'
+    dataType:
+      precision: 38
+      platformDataTypeId: 'ea625964-ee65-4825-8d1b-87ebbd7baa31'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '88fd6ee4-e8c4-4433-94ed-1deb40fb005b'
+    name: 'SALES_PRICE'
+    dataType:
+      scale: 2
+      precision: 18
+      platformDataTypeId: 'ea625964-ee65-4825-8d1b-87ebbd7baa31'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '5738eb83-b896-4f6c-baa1-d453dbe373a1'
+    name: 'REDUCTION'
+    dataType:
+      scale: 2
+      precision: 18
+      platformDataTypeId: 'ea625964-ee65-4825-8d1b-87ebbd7baa31'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '6c2ceb9d-d95b-4faa-b671-8cbd270a91a9'
+    name: 'QUANTITY'
+    dataType:
+      scale: 3
+      precision: 18
+      platformDataTypeId: 'ea625964-ee65-4825-8d1b-87ebbd7baa31'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '1e7b381b-3560-4a3c-9e5d-ae3ddb4155c1'
+    name: 'SALES_AMOUNT'
+    dataType:
+      scale: 2
+      precision: 18
+      platformDataTypeId: 'ea625964-ee65-4825-8d1b-87ebbd7baa31'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+tags:
+  - '$discovery#id#8b609b52-8c82-44b7-9cc1-18bc0fab9762'
+  - '$sourcesystem#id#89e2a172-44a1-40d5-b03c-09ab1be79f21'
+  - '$initial#name#salestransaction'
+propertyValues: []

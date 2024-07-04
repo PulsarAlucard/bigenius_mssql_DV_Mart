@@ -1,0 +1,217 @@
+id: 'f3bdf50b-79aa-47c9-9466-2ca38534ad4d'
+name: 'CUSTOMER'
+description: 'Generated Model Object from CUSTOMER'
+modelObjectTypeId: '5a74b513-9166-4fd4-96c4-4062356fc4a4'
+terms:
+  - id: '56fe8f72-df5e-4246-be86-c3505fc077fd'
+    name: 'BG_LoadTimestamp'
+    description: 'Default term with the load timestamp'
+    dataType:
+      platformDataTypeId: '88718695-75e5-413d-a8e9-fa27fe064353'
+    defaultTermId: '3fdfd83b-00b6-47e7-b139-9b25993626ac'
+    isDefaultTerm: true
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: false
+    hiddenInSource: false
+    hiddenInTarget: true
+  - id: 'a0d5e617-0e7b-4f00-abf5-fc9c1a3d68e5'
+    name: 'BG_SourceSystem'
+    description: 'Default term with an identifier of the source system'
+    dataType:
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+      length: 255
+    defaultTermId: 'c3654f1c-5c92-4200-82ef-baac15ffa0ba'
+    isDefaultTerm: true
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '03a514eb-d008-4584-a420-fb7f3a3db379'
+    name: 'BG_IncrementalFilter'
+    description: 'Default term for incremental load'
+    dataType:
+      platformDataTypeId: 'f7afc941-4327-4359-b72f-7f663b794f08'
+    defaultTermId: 'f70ffce7-44ad-4d1a-98fd-01854032b15f'
+    isDefaultTerm: true
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: false
+    hiddenInSource: true
+    hiddenInTarget: false
+  - id: '56f52976-fa0a-4e76-89c0-66b7a35a5150'
+    name: 'BG_DataflowName'
+    description: 'Default term for incremental load'
+    dataType:
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+      length: 255
+    defaultTermId: 'af496643-6176-472a-8abe-b6df2e13a2fb'
+    isDefaultTerm: true
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: true
+    hiddenInTarget: true
+  - id: 'c8f70c8b-2905-4fcf-8814-9880a5b99858'
+    name: 'BG_ID'
+    description: 'Default term for surrogate key of increment table'
+    dataType:
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
+    defaultTermId: 'e8bfb245-78ae-42cc-93ca-ebb54f606720'
+    isDefaultTerm: true
+    isIdentity: true
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: false
+    hiddenInSource: true
+    hiddenInTarget: true
+  - id: 'd6901499-63e1-4801-b266-273a7496de25'
+    name: 'CUSTOMER_ID'
+    dataType:
+      precision: 38
+      platformDataTypeId: 'ea625964-ee65-4825-8d1b-87ebbd7baa31'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '6c6f23a5-e100-49b4-ae57-6708e1f353b8'
+    name: 'CUSTOMER'
+    dataType:
+      length: 100
+      platformDataTypeId: '9245c3e9-05f8-4e48-962c-e1b3c49bc239'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '0e006493-16ae-4543-98fc-7c5dd730f182'
+    name: 'CUSTOMER_TYPE'
+    dataType:
+      length: 100
+      platformDataTypeId: '9245c3e9-05f8-4e48-962c-e1b3c49bc239'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'd43bfeb8-783d-4c08-a1db-0a9235b4d518'
+    name: 'CUSTOMER_SINCE'
+    dataType:
+      platformDataTypeId: '4a8bdc4b-94cd-4a71-bac1-93b6b7120ef9'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '9a130aff-5323-4777-abe6-156f81feb887'
+    name: 'ADDRESS_LINE1'
+    dataType:
+      length: 100
+      platformDataTypeId: '9245c3e9-05f8-4e48-962c-e1b3c49bc239'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'ca5f2fcd-00bb-4453-8554-13885557e258'
+    name: 'ADDRESS_LINE2'
+    dataType:
+      length: 100
+      platformDataTypeId: '9245c3e9-05f8-4e48-962c-e1b3c49bc239'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'a940c053-721e-43fc-80e3-fb9d817ed46c'
+    name: 'ADDRESS_LINE3'
+    dataType:
+      length: 100
+      platformDataTypeId: '9245c3e9-05f8-4e48-962c-e1b3c49bc239'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'af02e0b9-d0fa-46de-9579-695ab017826d'
+    name: 'ZIP_CODE'
+    dataType:
+      length: 20
+      platformDataTypeId: '9245c3e9-05f8-4e48-962c-e1b3c49bc239'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '9bf84a8b-ec84-4c30-805f-5554247afa8f'
+    name: 'COUNTRY'
+    dataType:
+      length: 50
+      platformDataTypeId: '9245c3e9-05f8-4e48-962c-e1b3c49bc239'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'f77a19e9-2d07-41fa-851b-d1770128501f'
+    name: 'COUNTRY_ISO_CODE'
+    dataType:
+      length: 2
+      platformDataTypeId: '9245c3e9-05f8-4e48-962c-e1b3c49bc239'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+dataflows:
+  - id: '559732fa-a8d0-451f-9ec7-a6954a718e4c'
+    name: 'Dataflow1'
+    dataflowSets:
+      - id: 'b612f0ea-8682-426f-8517-b54b97a970f5'
+        name: 'Set1'
+        termMappings:
+          - termId: '56fe8f72-df5e-4246-be86-c3505fc077fd'
+          - termId: 'a0d5e617-0e7b-4f00-abf5-fc9c1a3d68e5'
+          - termId: '03a514eb-d008-4584-a420-fb7f3a3db379'
+          - termId: '56f52976-fa0a-4e76-89c0-66b7a35a5150'
+          - termId: 'c8f70c8b-2905-4fcf-8814-9880a5b99858'
+          - termId: 'd6901499-63e1-4801-b266-273a7496de25'
+            expression: 'ee94c7bf-549e-4097-a013-b21e6afc8bc0.6e854575-0bc4-4df8-a28d-7221ed4be37a'
+          - termId: '6c6f23a5-e100-49b4-ae57-6708e1f353b8'
+            expression: 'ee94c7bf-549e-4097-a013-b21e6afc8bc0.2958bac8-2447-4b42-ab1c-3e6087cd2db1'
+          - termId: '0e006493-16ae-4543-98fc-7c5dd730f182'
+            expression: 'ee94c7bf-549e-4097-a013-b21e6afc8bc0.05b44374-7d0f-49c3-8b1f-29b6b904d66b'
+          - termId: 'd43bfeb8-783d-4c08-a1db-0a9235b4d518'
+            expression: 'ee94c7bf-549e-4097-a013-b21e6afc8bc0.a63dcd79-e1f3-437a-9742-3ce63b50ec47'
+          - termId: '9a130aff-5323-4777-abe6-156f81feb887'
+            expression: 'ee94c7bf-549e-4097-a013-b21e6afc8bc0.9d35af13-a640-4f49-9962-0ea527ea5bc5'
+          - termId: 'ca5f2fcd-00bb-4453-8554-13885557e258'
+            expression: 'ee94c7bf-549e-4097-a013-b21e6afc8bc0.7ec00587-e972-471d-98e2-fc60d0066c90'
+          - termId: 'a940c053-721e-43fc-80e3-fb9d817ed46c'
+            expression: 'ee94c7bf-549e-4097-a013-b21e6afc8bc0.16b23607-5189-4913-a460-2893da05ac8f'
+          - termId: 'af02e0b9-d0fa-46de-9579-695ab017826d'
+            expression: 'ee94c7bf-549e-4097-a013-b21e6afc8bc0.2a43dc1a-986e-4865-930b-d43d909a1051'
+          - termId: '9bf84a8b-ec84-4c30-805f-5554247afa8f'
+            expression: 'ee94c7bf-549e-4097-a013-b21e6afc8bc0.d4b15aeb-5ed6-4a6f-9f20-54f6f41e5bef'
+          - termId: 'f77a19e9-2d07-41fa-851b-d1770128501f'
+            expression: 'ee94c7bf-549e-4097-a013-b21e6afc8bc0.38b607b6-bf76-4c96-89a0-e17df5ccd12f'
+        dataflowModelObjects:
+          - id: 'ee94c7bf-549e-4097-a013-b21e6afc8bc0'
+            sourceModelObjectId: 'c0ad90a3-1ce9-4a49-a0d9-cbc9bdb1ab45'
+            alias: 's1'
