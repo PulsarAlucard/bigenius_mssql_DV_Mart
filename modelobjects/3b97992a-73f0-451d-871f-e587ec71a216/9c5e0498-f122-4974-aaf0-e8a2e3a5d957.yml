@@ -132,7 +132,6 @@ dataflows:
           - termId: '2106f816-1518-4f26-962b-ed5eb20ff6d6'
           - termId: '1e8d5852-56d5-4bdd-ad22-cd63e9472f8b'
           - termId: '017ba28a-8af2-426c-b0d1-af19edd41d40'
-            expression: 'lfkjs'
             propertyValues: []
           - termId: '4fe507de-4d4a-4230-944b-dc3c42f50cf0'
             expression: 'dd31c1ad-0bb7-49d1-9734-6f2ad27fbd6f.e8f881ce-b45a-4166-8cbd-0363288cf594'
