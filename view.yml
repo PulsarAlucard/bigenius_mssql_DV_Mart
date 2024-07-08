@@ -29,3 +29,8 @@ views:
     modelObjects:
       - id: 'c1d31cdc-da94-477f-8845-cefda6dc4a76'
       - id: '5a1ba9fe-d183-480a-8856-1194f1efa5f1'
+  - id: 'd1c139e8-550e-414b-a478-56fc07be4754'
+    name: 'fadsf'
+    description: 'dsgfa'
+    type: 'data-pipe'
+    default: false
