@@ -161,17 +161,6 @@ terms:
     isNullable: true
     hiddenInSource: false
     hiddenInTarget: false
-  - id: '2cc9bbc7-8e57-48d0-92e2-102493f86f67'
-    name: 'COUNTRY_ISO_CODE'
-    dataType:
-      length: 2
-      platformDataTypeId: '9245c3e9-05f8-4e48-962c-e1b3c49bc239'
-    isIdentity: false
-    isBusinessKey: false
-    isForeignKey: false
-    isNullable: true
-    hiddenInSource: false
-    hiddenInTarget: false
 dataflows:
   - id: '5383f97d-0a0d-4e38-af30-04afec6352d7'
     name: 'Dataflow1'
@@ -198,8 +187,6 @@ dataflows:
           - termId: 'f4ef2741-4e9d-47bb-ac98-46287c6eeb92'
           - termId: '925ea05a-bb4b-4943-a9fe-5538cbdcee51'
             expression: '27996e33-1de8-4d03-84fd-7e66873680eb.af02e0b9-d0fa-46de-9579-695ab017826d'
-          - termId: '2cc9bbc7-8e57-48d0-92e2-102493f86f67'
-            expression: '27996e33-1de8-4d03-84fd-7e66873680eb.f77a19e9-2d07-41fa-851b-d1770128501f'
         dataflowModelObjects:
           - id: '27996e33-1de8-4d03-84fd-7e66873680eb'
             sourceModelObjectId: 'f3bdf50b-79aa-47c9-9466-2ca38534ad4d'
