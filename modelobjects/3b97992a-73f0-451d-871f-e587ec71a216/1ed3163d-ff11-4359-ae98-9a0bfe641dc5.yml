@@ -87,8 +87,8 @@ terms:
   - id: '58c6ee3b-f35b-447f-848e-bf6761e9f8d5'
     name: 'FK_ITEM_ITEM_ID'
     dataType:
-      precision: 38
       platformDataTypeId: 'ea625964-ee65-4825-8d1b-87ebbd7baa31'
+      precision: 38
     isIdentity: false
     isBusinessKey: false
     isForeignKey: true
@@ -110,7 +110,8 @@ dataflows:
           - termId: '11472360-7197-40c0-9017-c5d8a0abea05'
           - termId: '568a222c-25db-47e5-b601-576655593471'
           - termId: '58c6ee3b-f35b-447f-848e-bf6761e9f8d5'
-            expression: '669f4a60-9639-4dce-a44f-f044858d6973.094082c2-fc4f-4a0d-8462-3182e141fa68'
+            expression: '669f4a60-9639-4dce-a44f-f044858d6973.094082c2-fc4f-4a0d-8462-3182e141fa68 + ''0'''
+            propertyValues: []
         dataflowModelObjects:
           - id: '669f4a60-9639-4dce-a44f-f044858d6973'
             sourceModelObjectId: '0a9bc658-408d-4234-b81b-db017e7bd3cf'
