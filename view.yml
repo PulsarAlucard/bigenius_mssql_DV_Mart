@@ -34,3 +34,6 @@ views:
     description: 'dsgfa'
     type: 'data-pipe'
     default: false
+    modelObjects:
+      - id: 'c0ad90a3-1ce9-4a49-a0d9-cbc9bdb1ab45'
+      - id: '206a3b1c-87f5-4dc3-af46-a63dc0c5c7ab'
