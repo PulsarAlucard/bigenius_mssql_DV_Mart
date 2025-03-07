@@ -1,7 +1,7 @@
 id: '7e1fe210-91ce-46e1-309a-08dc95fa43f7'
-version: 'v1.4'
 name: 'mssql_dv_and_mart'
 description: 'mssql_dv_and_mart'
+version: 'v1.5'
 configuration:
   id: 'biGENIUS.Implementation.Generator.VaultAndMart.Mssql'
   version: '1.6.1'
@@ -9,5 +9,5 @@ sourceSystems:
   - id: '89e2a172-44a1-40d5-b03c-09ab1be79f21'
     name: 'pos'
     description: ''
-    sourceSystemTypeId: 'f69491d8-eed8-43a0-89f9-60195b3415c2'
     activeDiscovery: '8b609b52-8c82-44b7-9cc1-18bc0fab9762'
+    sourceSystemTypeId: 'f69491d8-eed8-43a0-89f9-60195b3415c2'
